@@ -7,7 +7,6 @@
 @import url('./_reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
-
 * {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
@@ -31,36 +30,31 @@ body {
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
-  }
-  .overlay-content {
+}
+.overlay-content {
     position: relative;
     top: 25%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
-  }
-  
-  .overlay a {
+}
+.overlay a {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
     color: #818181;
     display: block;
     transition: 0.3s;
-  }
-  /* .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-  } */
-  .overlay .closebtn {
+}
+.overlay .closebtn {
     position: absolute;
     top: 20px;
     right: 45px;
     font-size: 60px !important;
-  }
-  .overlay a:hover{
+}
+.overlay a:hover{
     background-color: #641975;
     transition: 1.8s;
-
 }
 .overlay a{
     font-size: 30px !important;
@@ -85,7 +79,6 @@ body {
     top: 0;
     width: 100%;
     z-index: 1;
-    
 }
 .logo{
     width: 110px;
@@ -99,9 +92,7 @@ body {
    padding: 25px;
    color: #fff;
    font-size: 17px;
-   /* font-weight: bold; */
 }
-
 .header .nav-links a:hover{
     background-color: #641975;
     transition: 1.8s;
@@ -109,9 +100,7 @@ body {
 }
 .active{
     background-color: #641975 ;
-    
 }
-
 .fa-bars {
     display: none;
     font-size: 25px;
@@ -119,8 +108,9 @@ body {
 }
 .nav-links{
     padding-right: 20px;
-    
 }
+
+/* INTROSECTION */
 .introsection{
     box-sizing: border-box;
     padding: 100px 112px;
@@ -129,27 +119,20 @@ body {
     align-items: center;
     align-content: flex-end;
     flex-wrap: wrap;
-    
-   
 }
 .introsection-left{
     width: 50%;
-    
 }
-
 .introsection-right{
     width: 50%;
     text-align: center;
-    
 }
 .introsection-right img{
     height: 500px;
     width: 276px;
-    
 }
 .introsection-left span{
     color:var(--main-color); 
-
 }
  #welcome{
     font-weight: 400;
@@ -162,7 +145,6 @@ body {
 .introsection-left small{
     font-size: 20px;
 }
-
 @media(max-width:1490px){
     .introsection-left h1{
         font-size: 50px;
@@ -225,17 +207,15 @@ body {
         padding-right: 0;
     }
 }
+
 /* ABOUT */
 .about-section{
     display: flex;
     justify-content: space-between;
     padding: 20px 112px;
-    
-
 }
 .about-left{
     width: 50%;
-    
 }
 .about-left img{
     width: 100%;
@@ -247,35 +227,28 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     text-align: justify; 
-    /* text-align: center; */
-    
 }
 .about-right h1{
     color: var(--main-color);
 }
 .about-right p{
-    
     margin: 0;
     font-size: 20px;
 }
 @media(max-width:1484px){
     .about-right p{
-    
         font-size: 19px;
     }
 }
 @media(max-width:1332px){
     .about-right p{
-    
         font-size: 18px;
     }
 }
 @media(max-width:1294px){
     .about-right p{
-    
         font-size: 17px;
     }
 }
@@ -284,7 +257,6 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
     .about-left{
         width: 100%;
@@ -302,8 +274,6 @@ body {
     .about-right p{
         font-size: 23px; 
     }
-
-
 }
 @media(max-width:920px){
     .about-section{
@@ -323,9 +293,6 @@ body {
         font-size: 17px; 
     }
 }
-
-
-
 
 /* SKILLS */
 .skill-section{
@@ -369,9 +336,6 @@ body {
     font-weight: bold;
 }
 
-
-
-
 /* Slider */
 .slider{
     display: flex;
@@ -414,18 +378,14 @@ body {
 }
 }
 
-
-
 /* FOOTER */
 .footer{
-    
     display: flex;
     flex-direction: column;
     align-content: space-between;
     padding-top: 20px;
     background-color: var(--main-color);
     color:#fff;
-
 }
 .footer a{
     color: #fff;
@@ -435,16 +395,13 @@ body {
 .footer-top{
     display: flex;
     justify-content: space-evenly;
-    
     height: 70%;
     border-bottom: 1px solid #bfadcc;
 }
 .footer-left{
     width: 20%;
 }
-
 .footer-right{
-    
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -455,14 +412,10 @@ body {
     justify-content: space-between;
     text-align: center;
     padding: 5px 20px;
-
-    
-
 }
 .footer a:hover{
     background-color: #641975;
     transition: 1.5s;
-
 }
 @media(max-width:980px){
     .footer-right .nav-links{
@@ -474,13 +427,10 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-    
     }
-    
     .contact{
         text-align: center;
     }
-    
     .footer-top{
         display: flex;
         flex-direction: column;
@@ -492,16 +442,13 @@ body {
     }
     .links{
         text-align: center;
-        
     }
    .footer-links .nav-links{
     width: 100%;
    }
     .links a{
         padding: 10px;
-        font-size: 18px;
-        
-        
+        font-size: 18px; 
     }
     .footer-bottom small{
         font-size: 12px;
