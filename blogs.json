@@ -1,0 +1,18 @@
+[
+    {
+        "img_address":"./assets/photos/piano.png",
+        "interests_name": "Piano",
+        "content": "I love to play the piano. I started learning since I was 10 years old. It calms a person down. He is my best friend during exams." 
+    },
+    {
+        "img_address":"./assets/photos/guitar.png",
+        "interests_name":"Guitar",
+        "content": "I also love the guitar. I studied for 2 months. It's really interesting to play and sing."
+    },
+    {
+        "img_address":"./assets/photos/violin.png",
+        "interests_name":"Violin",
+        "content":"My true love is the violin. I hope to be able to play the violin soon."
+    }
+
+]
